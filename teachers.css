@@ -1,0 +1,72 @@
+/* Teachers Page Styles */
+.teachers-container {
+    margin: 50px auto;
+    padding: 40px;
+    max-width: 1100px;
+    text-align: center;
+  }
+  
+  .teachers-container h1 {
+    font-size: 36px;
+    color: #03a9f4; /* Light blue */
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    background-color: #1f1f1f; /* Dark card background */
+    border: 2px solid #333;
+    border-radius: 20px;
+    width: 280px;
+    margin: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden; /* Keeps the image within the card */
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h3 {
+    font-size: 24px;
+    color: #03a9f4; /* Light blue */
+    margin-bottom: 15px;
+  }
+  
+  .card-content p {
+    font-size: 16px;
+    color: #bbb; /* Lighter text color */
+    margin-bottom: 10px;
+  }
+  
+  .card-content p strong {
+    font-weight: bold;
+  }
+  
+  /* Responsive design for cards */
+  @media (max-width: 900px) {
+    .card {
+      width: 45%; /* 2 cards per row */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .card {
+      width: 100%; /* 1 card per row on mobile */
+    }
+  }
+  

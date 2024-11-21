@@ -1,0 +1,52 @@
+.about-section {
+    margin: 50px auto;
+    padding: 40px;
+    max-width: 900px;
+    background-color: #1f1f1f; /* Dark background */
+    border: 2px solid #333;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .about-section h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #03a9f4; /* Light blue */
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    text-align: center;
+    font-size: 18px;
+    color: #bbb; /* Lighter text */
+    line-height: 1.6;
+  }
+  
+  .class-info,
+  .class-activities,
+  .future-plans {
+    margin-top: 30px;
+  }
+  
+  .class-info h2,
+  .class-activities h2,
+  .future-plans h2 {
+    font-size: 28px;
+    color: #03a9f4; /* Light blue */
+    margin-bottom: 20px;
+  }
+  
+  .class-info ul,
+  .class-activities ul,
+  .future-plans ul {
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .class-info li,
+  .class-activities li,
+  .future-plans li {
+    margin: 10px 0;
+  }
+  
